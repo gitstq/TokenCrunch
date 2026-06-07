@@ -1,0 +1,40 @@
+{
+  "name": "tokensqueeze",
+  "version": "1.0.0",
+  "description": "🚀 TokenCrunch - Lightweight LLM Input Intelligent Compression Engine. Reduce token usage by 60-95% while preserving semantic integrity.",
+  "main": "src/index.js",
+  "bin": {
+    "tokensqueeze": "./bin/tokensqueeze.js",
+    "tsq": "./bin/tokensqueeze.js"
+  },
+  "scripts": {
+    "start": "node bin/tokensqueeze.js",
+    "test": "node tests/run-tests.js",
+    "lint": "echo 'No linter configured - zero dependency policy'",
+    "build": "echo 'No build step required - pure Node.js'"
+  },
+  "keywords": [
+    "llm",
+    "token-compression",
+    "ai",
+    "openai",
+    "claude",
+    "cost-optimization",
+    "prompt-engineering",
+    "cli-tool",
+    "zero-dependencies"
+  ],
+  "author": "gitstq",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitstq/TokenCrunch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gitstq/TokenCrunch/issues"
+  },
+  "homepage": "https://github.com/gitstq/TokenCrunch#readme"
+}
